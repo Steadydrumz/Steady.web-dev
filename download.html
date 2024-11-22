@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Download Button</title>
+  <style>
+    body {
+      font-family: 'Calibri';
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+    .button-container {
+      text-align: center;
+    }
+
+    .button-group {
+      margin: 20px 0;
+    }
+
+    .button {
+      padding: 15px 30px;
+      font-size: 16px;
+      width: 300px;
+      height: 50px;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color #555;
+    }
+    .button.blue {
+        background-color: rgb(19, 156, 202);
+    }
+
+    .button.blue:hover{
+      background-color: #adaeaf;
+    }
+    .button.orange {
+      background-color: orange;
+    }
+
+    .button.orange:hover {
+      background-color: #adaeaf;
+    }
+
+    p {
+      margin: 10px 0 0;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <div class="button-group">
+      <button class="button blue">Download</button>
+      <p>Download Software</p>
+    </div>
+    <div class="button-group">
+      <button class="button orange">Download</button>
+      <p>Download Zip file</p>
+    </div>
+  </div>
+</body>
+</html>
